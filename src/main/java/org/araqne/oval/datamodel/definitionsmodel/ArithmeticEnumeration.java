@@ -1,5 +1,7 @@
 package org.araqne.oval.datamodel.definitionsmodel;
 
-public enum ArithmeticEnumeration {
+public class ArithmeticEnumeration {
 
+	//add
+	//multiply
 }

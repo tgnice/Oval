@@ -1,6 +1,7 @@
 package org.araqne.oval.datamodel.definitionsmodel;
 
 import org.araqne.oval.datamodel.commonmodel.GeneratorType;
+import org.araqne.oval.datamodel.commonmodel.Signature;
 
 public class OvalDefinitions {
 
@@ -10,6 +11,6 @@ public class OvalDefinitions {
 	private ObjectsType objects;
 	private StatesType states;
 	private VariablesType variables;
-	//Signature
+	private Signature signature;
 	
 }

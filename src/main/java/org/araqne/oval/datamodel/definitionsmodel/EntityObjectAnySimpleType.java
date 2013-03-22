@@ -2,7 +2,7 @@ package org.araqne.oval.datamodel.definitionsmodel;
 
 import org.araqne.oval.datamodel.commonmodel.SimpleDatatypeEnumeration;
 
-public class EntityStateIPAddressType {
+public class EntityObjectAnySimpleType {
 
 	SimpleDatatypeEnumeration datatype;
 }

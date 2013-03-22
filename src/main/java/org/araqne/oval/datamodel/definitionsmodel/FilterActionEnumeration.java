@@ -1,5 +1,7 @@
 package org.araqne.oval.datamodel.definitionsmodel;
 
-public enum FilterActionEnumeration {
+public class FilterActionEnumeration {
 
+	//include
+	//exclude
 }

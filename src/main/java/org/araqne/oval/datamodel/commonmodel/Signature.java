@@ -1,5 +1,5 @@
 package org.araqne.oval.datamodel.commonmodel;
 
-public class FamilyEnumeration {
+public class Signature {
 
 }

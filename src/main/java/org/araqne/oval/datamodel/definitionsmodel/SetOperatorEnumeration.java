@@ -1,5 +1,8 @@
 package org.araqne.oval.datamodel.definitionsmodel;
 
-public enum SetOperatorEnumeration {
+public class SetOperatorEnumeration {
 
+	//COMPLEMENT
+	//INTERSECTION
+	//UNION
 }

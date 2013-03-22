@@ -1,5 +1,8 @@
 package org.araqne.oval.datamodel.definitionsmodel;
 
-public class LocalVariable {
+import java.util.ArrayList;
 
+public class LocalVariable extends VariableType{
+
+	ArrayList<ComponentGroup> components;
 }

@@ -1,5 +1,8 @@
 package org.araqne.oval.datamodel.definitionsmodel;
 
-public class ConstantVariable {
+import java.util.ArrayList;
 
+public class ConstantVariable extends VariableType{
+
+	ArrayList<ValueType> value;
 }

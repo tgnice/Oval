@@ -1,5 +1,16 @@
 package org.araqne.oval.datamodel.definitionsmodel;
 
-public class EntityStateRecordType {
+import org.araqne.oval.datamodel.commonmodel.CheckEnumeration;
+import org.araqne.oval.datamodel.commonmodel.ComplexDatatypeEnumeration;
+import org.araqne.oval.datamodel.commonmodel.OperationEnumeration;
+import org.araqne.oval.datamodel.commonmodel.VariableIDPattern;
 
+public class EntityStateRecordType extends EntityStateComplexBaseType{
+
+	ComplexDatatypeEnumeration datatype;
+	OperationEnumeration operation;
+	boolean mask;
+	VariableIDPattern varRef;
+	CheckEnumeration varCheck;
+	
 }

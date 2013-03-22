@@ -1,5 +1,6 @@
 package org.araqne.oval.datamodel.commonmodel;
 
-public enum ClassEnumeration {
+public class ClassEnumeration {
+	private String value;
 
 }

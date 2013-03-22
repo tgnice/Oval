@@ -1,5 +1,5 @@
 package org.araqne.oval.datamodel.definitionsmodel;
 
-public class EntityobjectFieldType {
+public class EntityObjectFieldType {
 
 }
