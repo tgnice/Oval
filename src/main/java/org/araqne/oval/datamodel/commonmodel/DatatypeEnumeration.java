@@ -1,8 +1,7 @@
 package org.araqne.oval.datamodel.commonmodel;
 
-public enum DatatypeEnumeration {
+public class DatatypeEnumeration {
 
-	;
 	SimpleDatatypeEnumeration simpleDatatype;
 	ComplexDatatypeEnumeration complexDatatype;
 }
