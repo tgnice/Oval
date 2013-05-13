@@ -4,6 +4,15 @@ import java.util.ArrayList;
 
 public class DefinitionsType {
 
-	ArrayList<DefinitionType> definition;
+	private ArrayList<DefinitionType> definition;
+
+	public ArrayList<DefinitionType> getDefinition() {
+		return definition;
+	}
+
+	public void setDefinition(ArrayList<DefinitionType> definition) {
+		this.definition = definition;
+	}
+	
 	
 }
