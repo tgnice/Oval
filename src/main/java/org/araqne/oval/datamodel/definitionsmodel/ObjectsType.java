@@ -4,5 +4,14 @@ import java.util.ArrayList;
 
 public class ObjectsType {
 
-	ArrayList<ObjectType> object;
+	private ArrayList<ObjectType> object;
+
+	public ArrayList<ObjectType> getObject() {
+		return object;
+	}
+
+	public void setObject(ArrayList<ObjectType> object) {
+		this.object = object;
+	}
+
 }

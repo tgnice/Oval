@@ -2,7 +2,7 @@ package org.araqne.oval.datamodel.commonmodel;
 
 public class NonEmptyStringType {
 
-	String value;
+	private String value;
 	@Override
 	public String toString() {
 		

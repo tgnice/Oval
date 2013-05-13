@@ -2,7 +2,32 @@ package org.araqne.oval.datamodel.definitionsmodel;
 
 public class EntityObejctFieldType {
 
-	EntityAttributeGroup attributes;
-	String name;
-	String value;
+	private EntityAttributeGroup attributes;
+	private String name;
+	private String value;
+
+	public EntityAttributeGroup getAttributes() {
+		return attributes;
+	}
+
+	public void setAttributes(EntityAttributeGroup attributes) {
+		this.attributes = attributes;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getValue() {
+		return value;
+	}
+
+	public void setValue(String value) {
+		this.value = value;
+	}
+
 }

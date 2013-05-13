@@ -4,5 +4,14 @@ import java.util.ArrayList;
 
 public class UniqueFunctionType {
 
-	ArrayList<ComponentGroup> values;
+	private ArrayList<ComponentGroup> values;
+
+	public ArrayList<ComponentGroup> getValues() {
+		return values;
+	}
+
+	public void setValues(ArrayList<ComponentGroup> values) {
+		this.values = values;
+	}
+
 }

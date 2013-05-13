@@ -4,5 +4,14 @@ import java.util.ArrayList;
 
 public class ValueType {
 
-	ArrayList<String> value;
+	private ArrayList<String> value;
+
+	public ArrayList<String> getValue() {
+		return value;
+	}
+
+	public void setValue(ArrayList<String> value) {
+		this.value = value;
+	}
+
 }

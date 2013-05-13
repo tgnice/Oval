@@ -4,5 +4,14 @@ import org.araqne.oval.datamodel.commonmodel.ObjectIDPattern;
 
 public class ObjectRefType {
 
-	ObjectIDPattern objectRef;
+	private ObjectIDPattern objectRef;
+
+	public ObjectIDPattern getObjectRef() {
+		return objectRef;
+	}
+
+	public void setObjectRef(ObjectIDPattern objectRef) {
+		this.objectRef = objectRef;
+	}
+
 }

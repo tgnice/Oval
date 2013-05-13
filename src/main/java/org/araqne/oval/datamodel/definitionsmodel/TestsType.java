@@ -4,5 +4,14 @@ import java.util.ArrayList;
 
 public class TestsType {
 
-	ArrayList<TestType> test;
+	private ArrayList<TestType> test;
+
+	public ArrayList<TestType> getTest() {
+		return test;
+	}
+
+	public void setTest(ArrayList<TestType> test) {
+		this.test = test;
+	}
+
 }

@@ -4,6 +4,14 @@ import org.araqne.oval.datamodel.commonmodel.VariableIDPattern;
 
 public class VariableComponentType {
 
-	VariableIDPattern varRef;
-	
+	private VariableIDPattern varRef;
+
+	public VariableIDPattern getVarRef() {
+		return varRef;
+	}
+
+	public void setVarRef(VariableIDPattern varRef) {
+		this.varRef = varRef;
+	}
+
 }

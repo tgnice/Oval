@@ -4,5 +4,14 @@ import java.util.ArrayList;
 
 public class StatesType {
 
-	ArrayList<StateType> state;
+	private ArrayList<StateType> state;
+
+	public ArrayList<StateType> getState() {
+		return state;
+	}
+
+	public void setState(ArrayList<StateType> state) {
+		this.state = state;
+	}
+
 }

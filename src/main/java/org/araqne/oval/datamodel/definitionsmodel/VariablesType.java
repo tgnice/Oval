@@ -4,5 +4,14 @@ import java.util.ArrayList;
 
 public class VariablesType {
 
-	ArrayList<VariableType> variable;
+	private ArrayList<VariableType> variable;
+
+	public ArrayList<VariableType> getVariable() {
+		return variable;
+	}
+
+	public void setVariable(ArrayList<VariableType> variable) {
+		this.variable = variable;
+	}
+
 }

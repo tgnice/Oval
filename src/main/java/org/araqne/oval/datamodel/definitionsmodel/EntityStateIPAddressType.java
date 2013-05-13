@@ -4,5 +4,14 @@ import org.araqne.oval.datamodel.commonmodel.SimpleDatatypeEnumeration;
 
 public class EntityStateIPAddressType {
 
-	SimpleDatatypeEnumeration datatype;
+	private SimpleDatatypeEnumeration datatype;
+
+	public SimpleDatatypeEnumeration getDatatype() {
+		return datatype;
+	}
+
+	public void setDatatype(SimpleDatatypeEnumeration datatype) {
+		this.datatype = datatype;
+	}
+
 }

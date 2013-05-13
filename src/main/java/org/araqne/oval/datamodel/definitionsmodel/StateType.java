@@ -7,11 +7,68 @@ import org.araqne.oval.datamodel.commonmodel.operatorEnumeration;
 
 public class StateType {
 
-	StateIDPattern id;
-	int version;
-	operatorEnumeration operator;
-	NonEmptyStringType comment;
-	boolean deprecated;
-	NotesType notes;
-	Signature signature;
+	private StateIDPattern id;
+	private int version;
+	private operatorEnumeration operator;
+	private NonEmptyStringType comment;
+	private boolean deprecated;
+	private NotesType notes;
+	private Signature signature;
+
+	public StateIDPattern getId() {
+		return id;
+	}
+
+	public void setId(StateIDPattern id) {
+		this.id = id;
+	}
+
+	public int getVersion() {
+		return version;
+	}
+
+	public void setVersion(int version) {
+		this.version = version;
+	}
+
+	public operatorEnumeration getOperator() {
+		return operator;
+	}
+
+	public void setOperator(operatorEnumeration operator) {
+		this.operator = operator;
+	}
+
+	public NonEmptyStringType getComment() {
+		return comment;
+	}
+
+	public void setComment(NonEmptyStringType comment) {
+		this.comment = comment;
+	}
+
+	public boolean isDeprecated() {
+		return deprecated;
+	}
+
+	public void setDeprecated(boolean deprecated) {
+		this.deprecated = deprecated;
+	}
+
+	public NotesType getNotes() {
+		return notes;
+	}
+
+	public void setNotes(NotesType notes) {
+		this.notes = notes;
+	}
+
+	public Signature getSignature() {
+		return signature;
+	}
+
+	public void setSignature(Signature signature) {
+		this.signature = signature;
+	}
+
 }

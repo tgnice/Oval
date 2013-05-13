@@ -9,6 +9,7 @@ public class AffectedType {
 	private FamilyEnumeration family;
 	private ArrayList<String> platform;
 	private ArrayList<String> product;
+	
 	public FamilyEnumeration getFamily() {
 		return family;
 	}

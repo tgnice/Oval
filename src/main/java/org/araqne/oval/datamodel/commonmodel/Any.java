@@ -8,7 +8,7 @@ public class Any {
 	 * This Any datatype does not constrain its data in anyway. 
 	 * This type is used to allow for extension with the OVAL Language
 	 */
-	String value;
+	private String value;
 	@Override
 	public String toString() {
 		

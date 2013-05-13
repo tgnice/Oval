@@ -6,8 +6,41 @@ import org.araqne.oval.datamodel.commonmodel.ObjectIDPattern;
 
 public class Set {
 
-	SetOperatorEnumeration setOperator;
-	ArrayList<Set> set;
-	ArrayList<ObjectIDPattern> objectReference;
-	ArrayList<Filter> filter;
+	private SetOperatorEnumeration setOperator;
+	private ArrayList<Set> set;
+	private ArrayList<ObjectIDPattern> objectReference;
+	private ArrayList<Filter> filter;
+
+	public SetOperatorEnumeration getSetOperator() {
+		return setOperator;
+	}
+
+	public void setSetOperator(SetOperatorEnumeration setOperator) {
+		this.setOperator = setOperator;
+	}
+
+	public ArrayList<Set> getSet() {
+		return set;
+	}
+
+	public void setSet(ArrayList<Set> set) {
+		this.set = set;
+	}
+
+	public ArrayList<ObjectIDPattern> getObjectReference() {
+		return objectReference;
+	}
+
+	public void setObjectReference(ArrayList<ObjectIDPattern> objectReference) {
+		this.objectReference = objectReference;
+	}
+
+	public ArrayList<Filter> getFilter() {
+		return filter;
+	}
+
+	public void setFilter(ArrayList<Filter> filter) {
+		this.filter = filter;
+	}
+
 }

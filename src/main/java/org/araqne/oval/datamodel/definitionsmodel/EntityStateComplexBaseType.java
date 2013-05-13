@@ -4,6 +4,14 @@ import org.araqne.oval.datamodel.commonmodel.CheckEnumeration;
 
 public class EntityStateComplexBaseType {
 
-	CheckEnumeration entityCheck;
-	
+	private CheckEnumeration entityCheck;
+
+	public CheckEnumeration getEntityCheck() {
+		return entityCheck;
+	}
+
+	public void setEntityCheck(CheckEnumeration entityCheck) {
+		this.entityCheck = entityCheck;
+	}
+
 }

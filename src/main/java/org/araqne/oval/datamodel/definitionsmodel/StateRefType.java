@@ -4,5 +4,14 @@ import org.araqne.oval.datamodel.commonmodel.StateIDPattern;
 
 public class StateRefType {
 
-	StateIDPattern stateRef;
+	private StateIDPattern stateRef;
+
+	public StateIDPattern getStateRef() {
+		return stateRef;
+	}
+
+	public void setStateRef(StateIDPattern stateRef) {
+		this.stateRef = stateRef;
+	}
+
 }

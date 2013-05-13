@@ -4,6 +4,23 @@ import java.util.ArrayList;
 
 public class ArithmeticFunctionType {
 
-	ArithmeticEnumeration arithmeticOperation;
-	ArrayList<ComponentGroup> values; // more than at least two
+	private ArithmeticEnumeration arithmeticOperation;
+	private ArrayList<ComponentGroup> values; // more than at least two
+
+	public ArithmeticEnumeration getArithmeticOperation() {
+		return arithmeticOperation;
+	}
+
+	public void setArithmeticOperation(ArithmeticEnumeration arithmeticOperation) {
+		this.arithmeticOperation = arithmeticOperation;
+	}
+
+	public ArrayList<ComponentGroup> getValues() {
+		return values;
+	}
+
+	public void setValues(ArrayList<ComponentGroup> values) {
+		this.values = values;
+	}
+
 }
